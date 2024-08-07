@@ -1,7 +1,6 @@
 # JC Onboarding Draft May 2024
-An onboarding project I started to draft up in April, not sure if I'm going to continue with this project...
+An onboarding project I started to draft up in April. Not sure if this will go anywhere...
 
-Btw pls ignore the links, they're paths in a web app that I don't feel like deploying.
 * Phase 1: Merging into Git/GitHub
   * [Gitting Ready (Installations)](/phase1/part1)
   * [Push, Pull, Commit, Branch](/phase1/part2)
