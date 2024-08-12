@@ -1,3 +1,24 @@
+# Outline 
+(Links don't work btw)
+* Phase 1: Merging into Git/GitHub
+  * [Gitting Ready (Installations)](/phase1/part1)
+  * [Push, Pull, Commit, Branch](/phase1/part2)
+  * [Your First PR!](/phase1/part3)
+* Phase 2: The Reactive Web
+  * [Cracking the Code - Using React](/phase2/part1)
+  * [Initializing Cards - Components/Props](/phase2/part2)
+  * [JavaScript Fundamentals](/phase2/part3)
+  * [Give Yourself A Hand! - Scripting + Props](/phase2/part4)
+* Phase 3: Adding Interactivity
+  * [Counting Your Points - Basic State](/phase3/part1)
+  * [Playing Your Cards - Advanced State](/phase3/part2)
+  * [Notifying Effects - useEffect](/phase3/part3)
+* Phase 4: Full Stack Uno!
+  * [Fetching Information - API Calls](/phase4/part1)
+  * [CRUD - Database Operations](/phase4/part2)
+  * [Connecting the Dots - Frontend + Backend](/phase4/part3)
+  * [Finishing Touches](/phase4/part4)
+
 # Phase 1.1: Gitting Ready
 
 Before you start coding, let's get our development environment set up. Here's what you'll need to start:
@@ -37,7 +58,8 @@ Have an old version of Node installed and want to upgrade? You can install a new
 ## Code Editor
 There's a lot of editors and IDEs to choose from. If you have a preferred editor, feel free to use it. We generally recommend Visual Studio Code (VSCode) for newer developers. You can download VSCode from their [official website](https://code.visualstudio.com/). 
 
-If you're more experienced developer and are looking for a specialized editor that has too many features, check out [WebStorm](https://www.jetbrains.com/webstorm/). It's free for students!# Phase 1.2: Push, Pull, Commit, Branch
+If you're more experienced developer and are looking for a specialized editor that has too many features, check out [WebStorm](https://www.jetbrains.com/webstorm/). It's free for students!
+# Phase 1.2: Push, Pull, Commit, Branch
 
 Let's start working with Git! Here's what we'll do:
   * Clone an Existing Repository
@@ -71,7 +93,8 @@ If all goes well, your changes will be committed locally. Now we need to push th
     # a command that's \`git push --set-upstream ...\`.
     # Just copy and run that, it's a one-time thing.
 
-Pushing to GitHub will require you to authenticate. Check out Ben's handy guide if you'd like to set up personal access tokens for authentication: [https://jumbocode.ben.page/reference/git-local](https://jumbocode.ben.page/reference/git-local)# Phase 1.3: Your First PR!
+Pushing to GitHub will require you to authenticate. Check out Ben's handy guide if you'd like to set up personal access tokens for authentication: [https://jumbocode.ben.page/reference/git-local](https://jumbocode.ben.page/reference/git-local)
+# Phase 1.3: Your First PR!
 
 Before starting this part you should have completed the follwing:
 - Cloned the Phase 1 repository
@@ -96,7 +119,8 @@ Congratulations! You've submitted your first PR!
 
 You'll notice that you can't merge the changes in yourself. PRs need to be approved by your PM/TL. When you finish a PR, let them know so they can review your code and merge in your changes. You can add them as a "Reviewer" on the PR or ping them on Slack/text.
 
-For this phase, add a PM/TL or Gabriel as a reviewer and we'll take a look at your code before merging it into the main branch.# Phase 2.1: Cracking the Code
+For this phase, add a PM/TL or Gabriel as a reviewer and we'll take a look at your code before merging it into the main branch.
+# Phase 2.1: Cracking the Code
 
 Let's finally get into React! Start by cloning the starter code:
 
@@ -120,7 +144,8 @@ Let's dig into some code! The goal of the activity is to unlock the lock and cha
 2. Figure out what the code does
 3. Find the passcode and unlock the lock
 4. Change the lock pin to something else
-5. Verify that the lock works with the new pin# Phase 2.2: Initializing Cards
+5. Verify that the lock works with the new pin
+# Phase 2.2: Initializing Cards
 
 Open up the Phase 2.2 page in the codebase and navigate to the page in your browser.
 
@@ -129,7 +154,8 @@ In the process of learning React, we'll build a partially complete implementatio
 Display a hand of cards using the Card component provided. We've have an example on how to display a card in the codebase. Create a starting hand of 5 predefined cards and display them on the Phase 2.2 page. We will be dynamically generating them later, so don't spend too much time getting everything perfect.
 
 Your final hand should look something like this:
-![Complete Hand](../img/phase2-part2.png)# Phase 2.3: JS Fundamentals
+![Complete Hand](../img/phase2-part2.png)
+# Phase 2.3: JS Fundamentals
 
 JavaScript/TypeScript syntax is similar to C/C++ syntax, but it's type system is much looser. A lot of your C/C++ knowledge will carry over. Learn X in Y has a very concise [overview of TypeScript](https://learnxinyminutes.com/docs/typescript/). 
 
@@ -220,24 +246,3 @@ Attempt to play a card if it is playable If the card is playable, return a copy 
 
 Using what you learned in the previous part, regenerate the hand you made earlier using the map function and an array of Card objects. The output should look the same as the output of Part 2.
 
-![Phase 2 Part 4 Output](../img/phase2-part2.png)# JC Onboarding Draft May 2024
-An onboarding project I started to draft up in April. Not sure if this will go anywhere...
-
-* Phase 1: Merging into Git/GitHub
-  * [Gitting Ready (Installations)](/phase1/part1)
-  * [Push, Pull, Commit, Branch](/phase1/part2)
-  * [Your First PR!](/phase1/part3)
-* Phase 2: The Reactive Web
-  * [Cracking the Code - Using React](/phase2/part1)
-  * [Initializing Cards - Components/Props](/phase2/part2)
-  * [JavaScript Fundamentals](/phase2/part3)
-  * [Give Yourself A Hand! - Scripting + Props](/phase2/part4)
-* Phase 3: Adding Interactivity
-  * [Counting Your Points - Basic State](/phase3/part1)
-  * [Playing Your Cards - Advanced State](/phase3/part2)
-  * [Notifying Effects - useEffect](/phase3/part3)
-* Phase 4: Full Stack Uno!
-  * [Fetching Information - API Calls](/phase4/part1)
-  * [CRUD - Database Operations](/phase4/part2)
-  * [Connecting the Dots - Frontend + Backend](/phase4/part3)
-  * [Finishing Touches](/phase4/part4)
