@@ -138,13 +138,14 @@ The development server should serve the website on [http://localhost:3000](http:
 
 Click on the link to the Phase 2.1 activity.
 
-Let's dig into some code! The goal of the activity is to unlock the lock and change the pin. More specifically,
+Let's dig into some code! The goal of the activity is to unlock a virtual lock and change the pin. More specifically,
 
 1. Find the code used to generate this page
 2. Figure out what the code does
 3. Find the passcode and unlock the lock
 4. Change the lock pin to something else
 5. Verify that the lock works with the new pin
+
 # Phase 2.2: Initializing Cards
 
 Open up the Phase 2.2 page in the codebase and navigate to the page in your browser.
@@ -157,10 +158,10 @@ Your final hand should look something like this:
 ![Complete Hand](../img/phase2-part2.png)
 # Phase 2.3: JS Fundamentals
 
-JavaScript/TypeScript syntax is similar to C/C++ syntax, but it's type system is much looser. A lot of your C/C++ knowledge will carry over. Learn X in Y has a very concise [overview of TypeScript](https://learnxinyminutes.com/docs/typescript/). 
+JavaScript/TypeScript syntax is similar to C/C++ syntax, but it's far looser with types and memory management. A lot of your C/C++ knowledge will carry over. Learn X in Y has a concise [overview of TypeScript](https://learnxinyminutes.com/docs/typescript/) to give you a sense of what JS looks like. 
 
 What's the difference between JS and TS? 
-- TypeScript is a superset of JavaScript: All valid JS code is valid TS code (but not the other way around). TS just adds a type system on top of JS which allows type safety and type checking. It's a quality-of-life upgrade to JS which allows us to catch errors earlier and faster.
+- TypeScript is a superset of JavaScript: All valid JS code is valid TS code (but not the other way around). TS adds a stricter type system on top of JS which enforces type checks. It's a quality-of-life upgrade to JS allowing us to catch potential errors faster.
 
 Implement each of the following functions in the Phase 2.3 page
 
